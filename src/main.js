@@ -5,8 +5,12 @@ import './plugins/vuetify-extra';
 import App from './App.vue';
 import router from './router/index';
 import i18n from './i18n';
+import { defineCustomElements as defineIonPhaser } from '@ion-phaser/core/loader';
 
 Vue.config.productionTip = false
+Vue.config.ignoredElements = [/ion-\w*/];
+
+defineIonPhaser(window);
 
 const init = () => {
   new Vue({
