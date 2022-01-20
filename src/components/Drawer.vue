@@ -22,11 +22,7 @@ export default {
     return {
       items: [
         { icon: 'home', text: this.$t("drawer.home"), action: '/' },
-        { icon: 'vibration', text: this.$t('drawer.vibration'), action: 'vibration' },
-        { icon: 'camera', text: this.$t('drawer.camera'), action: 'camera' },
-        { icon: 'flash_on', text: this.$t('drawer.flash'), action: 'flash' },
-        { icon: 'gps_fixed', text: this.$t('drawer.localisation'), action: 'localisation' },
-        { icon: 'nfc', text: this.$t('drawer.nfc'), action: 'nfc' }
+        { icon: 'vibration', text: 'Second test', action: 'second' },
       ]
     }
   }

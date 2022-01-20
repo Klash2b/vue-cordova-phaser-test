@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ion-phaser v-bind:game.prop="game" v-bind:initialize.prop="initialize" />
+    <ion-phaser :game.prop="game" :initialize.prop="initialize" />
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
         type: Phaser.AUTO,
         scene: {
           init() {
-            this.cameras.main.setBackgroundColor("#24252A");
+            this.cameras.main.setBackgroundColor("#000000");
           },
           create() {
             this.helloWorld = this.add.text(
