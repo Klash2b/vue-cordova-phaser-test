@@ -52,10 +52,12 @@ export default {
   },
   methods: {
     hoverYes() {
+      this.hover = true;
       this.abeille2.setDirection(1);
       this.abeille2.play();
     },
     hoverNo() {
+      this.hover = false;
       this.abeille2.setDirection(-1);
       this.abeille2.play();
     },
