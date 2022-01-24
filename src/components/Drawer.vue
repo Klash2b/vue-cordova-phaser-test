@@ -24,6 +24,7 @@ export default {
         { icon: 'home', text: this.$t("drawer.home"), action: '/' },
         { icon: 'vibration', text: 'Second test', action: 'second' },
         { icon: 'vibration', text: 'Third test', action: 'third' },
+        { icon: 'vibration', text: 'Fourth test', action: 'fourth' },
       ]
     }
   }
